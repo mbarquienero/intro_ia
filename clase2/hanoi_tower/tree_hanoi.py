@@ -1,7 +1,7 @@
 import json
 import aima
 import hanoi_states
-
+#hanoi_states.StatesHanoi
 
 class NodeHanoi(aima.Node):
     """

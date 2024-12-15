@@ -1,0 +1,6 @@
+digraph G {
+	"HanoiState: 3 2 | 1 | " [label="HanoiState: 3 2 | 1 | "]
+	HanoiState:" 3 2 1 |  | " -> HanoiState:" 3 2 | 1 | " [label="Move disk 1 from 1 to 2"]
+	"HanoiState: 3 2 |  | 1" [label="HanoiState: 3 2 |  | 1"]
+	HanoiState:" 3 2 1 |  | " -> HanoiState:" 3 2 |  | 1" [label="Move disk 1 from 1 to 3"]
+}
